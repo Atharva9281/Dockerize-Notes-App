@@ -3,6 +3,19 @@
 ## **Overview**
 This project demonstrates how to containerize a **Notes App** using **Docker** and deploy it on an **AWS EC2 instance**. The application is built with **JavaScript** (frontend), **Django** (backend), and **Nginx** (reverse proxy). Docker enables easy deployment and scalability by packaging all dependencies into containers.
 
+## **Why This Project is Important**
+- **Containerization** ensures the application runs consistently across different environments.
+- **Simplifies Deployment** by packaging dependencies into containers.
+- **Scalability** as new instances can be easily deployed.
+- **Microservices Architecture** with separate containers for frontend, backend, and Nginx.
+
+## **What I Learned**
+- Installing and managing **Docker** on AWS EC2.
+- Writing a **Dockerfile** to containerize an application.
+- Using **Docker Compose** to orchestrate multiple services.
+- Configuring **Nginx** as a reverse proxy for handling requests.
+- Deploying and running containers efficiently in a cloud environment.
+
 ## **Technologies Used**
 - **Docker**: Containerization of the application.
 - **Docker Compose**: Managing multi-container setup.
@@ -55,19 +68,6 @@ docker-compose up --build
 
 ### **3. Verify Deployment**
 Access the application by visiting your EC2 instance's public IP in a browser.
-
-## **Why This Project is Important**
-- **Containerization** ensures the application runs consistently across different environments.
-- **Simplifies Deployment** by packaging dependencies into containers.
-- **Scalability** as new instances can be easily deployed.
-- **Microservices Architecture** with separate containers for frontend, backend, and Nginx.
-
-## **What I Learned**
-- Installing and managing **Docker** on AWS EC2.
-- Writing a **Dockerfile** to containerize an application.
-- Using **Docker Compose** to orchestrate multiple services.
-- Configuring **Nginx** as a reverse proxy for handling requests.
-- Deploying and running containers efficiently in a cloud environment.
 
 ## **Credits**
 A huge thanks to [this YouTube tutorial](https://www.youtube.com/watch?v=9bSbNNH4Nqw&t=13849s) for an excellent explanation that greatly helped in understanding and implementing this project.
