@@ -11,17 +11,6 @@ This project demonstrates how to containerize a **Notes App** using **Docker** a
 - **JavaScript**: Frontend for the Notes App.
 - **AWS EC2**: Hosting the application.
 
-## **Project Structure**
-```
-/notes-app
-│── backend/         # Django API
-│── frontend/        # JavaScript frontend
-│── nginx/           # Nginx configuration
-│── docker-compose.yml
-│── Dockerfile
-│── README.md
-```
-
 ## **Setup and Deployment**
 
 ### **1. Install Docker on AWS EC2**
