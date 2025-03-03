@@ -54,10 +54,6 @@ docker-compose up --build
 ```
 
 ### **3. Verify Deployment**
-Check running containers:
-```sh
-docker ps
-```
 Access the application by visiting your EC2 instance's public IP in a browser.
 
 ## **Why This Project is Important**
